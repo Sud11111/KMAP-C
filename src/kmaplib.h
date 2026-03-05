@@ -92,7 +92,7 @@ void kconv_2tcm_jac(double *p, double dk, double *scant, double td, double *cp,
 /*
  * kconv_1tcm_tac
  * 
- * Calculates the TAC for a 1-tissue compartment model with 3 parameters.
+ * Calculates the TAC for a 1-tissue compartment model with 4 parameters.
  */
 void kconv_1tcm_tac(double *p, double dk, double *scant, double td, double *cp, 
                     double *wb, int num_frm, int num_vox, double *ct);
@@ -100,7 +100,7 @@ void kconv_1tcm_tac(double *p, double dk, double *scant, double td, double *cp,
 /*
  * kconv_1tcm_jac
  * 
- * Calculates the Jacobian for a 1-tissue compartment model with 3 parameters.
+ * Calculates the Jacobian for a 1-tissue compartment model with 4 parameters.
  */
 void kconv_1tcm_jac(double *p, double dk, double *scant, double td, double *cp, 
                     double *wb, int num_frm, int num_vox, double *ct, int *psens, 
